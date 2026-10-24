@@ -373,10 +373,21 @@ p { margin: 0; }
 
 .welcome--bg {
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url('church.PNG');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  color: #fff;
+}
+
+.welcome--bg .section-title,
+.welcome--bg .eyebrow,
+.welcome--bg p {
+  color: #fff;
+}
+
+.welcome--bg .btn--outline {
+  border-color: #fff;
   color: #fff;
 }
