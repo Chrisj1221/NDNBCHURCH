@@ -394,7 +394,7 @@ p { margin: 0; }
 
 .background--vid {
    background-video:
-      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6),
+      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url('1030 (2)(1).mov');
    background-size: cover;
    background-position: center;
